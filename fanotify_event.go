@@ -66,7 +66,7 @@ func checkCapSysAdmin() (bool, error) {
 	if err != nil {
 		return false, err
 	}
-	return c.IsSet(unix.CAP_SYS_ADMIN, capabilities.Effective)
+	return c.IsSet(os.Getpid(), unix.CAP_SYS_ADMIN, capabilities.Effective)
 }
 
 func flagsValid(flags uint) error {
