@@ -1,6 +1,6 @@
-module github.com/opcoder0/fanotify
+module github.com/mishhgun01/fanotify
 
-go 1.17
+go 1.23.0
 
 require (
 	github.com/opcoder0/capabilities v0.0.0-20221222060822-17fd73bffd2a

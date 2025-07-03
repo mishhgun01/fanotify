@@ -3,7 +3,7 @@ package fanotify_test
 import (
 	"log"
 
-	"github.com/opcoder0/fanotify"
+	"github.com/mishhgun01/fanotify"
 )
 
 func ExampleNewListener() {
